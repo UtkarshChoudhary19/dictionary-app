@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 25px;
+  background-color: black;
+  color: white;
+}
+.lists{
+  display: flex;
+  gap: 20px;
+}
+.lists a{
+  text-decoration: none;
+  color: white;
+}
+.searchbar input, button{
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+.list{
+  margin: 10px 0px;
+}
+.list a{
+  text-decoration: none;
+  color: rgb(8, 8, 8);
+  font-size: 20px;
+  padding: 8px 50px;
+  border-radius: 2px;
+}
+a:hover{
+  color: red;
+}
+.heading a{
+  text-decoration: none;
+  color: white;
+}
